@@ -102,11 +102,7 @@ header {
 
 /* - general of projects sections */
 
-/* .project h4 {
-  display: inline-block;
-} */
-
-.project h4 {
+.project .year {
   font-family: Work-Sans, Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -114,47 +110,47 @@ header {
   margin: 0;
   padding: 0;
   padding-left: 15vw;
+  height: 23px;
 }
 
-.project h3 {
+.project .section-title {
   font-family: Didact-Gothic, Arial, Helvetica, sans-serif;
   font-size: 112px;
   font-weight: 400;
-  border: 2px solid red;
   text-align: left;
   padding-left: 15vw;
+  height: 147px;
+  margin-top: 20px;
 }
-.project h6 {
+.project .section-branch {
   font-family: Work-Sans, Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: -1px;
   padding-left: 15vw;
+  height: 23px;
+  margin-top: 40px;
 }
+
+.project div .section-button {
+  font-family: Fjalla-One, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  width: 96px;
+  height: 52px;
+  text-align: center;
+  margin-left: 15vw;
+  margin-top: 80px;
+}
+
 .project div h2 {
   font-family: Fjalla-One, Arial, Helvetica, sans-serif;
   font-size: 165px;
   font-weight: 400;
   letter-spacing: -3.3px;
-  background-color: red;
   text-align: right;
   padding-right: 8vw;
-}
-
-.project div button {
-  font-family: Fjalla-One, Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  border: 1px solid green;
-  width: 96px;
-  height: 52px;
-  text-align: center;
-  margin-left: 15vw;
-}
-
-.year {
-  height: 23px;
-  width: 65px;
+  height: 207px;
 }
 
 /* ? dark sections  */
@@ -190,33 +186,11 @@ header {
   border: 1px solid var(--white-color);
 }
 
-/* dark sections elements width and height + position */
+/* dark sections elements position */
 
 .section-orbis .year,
 .section-galitos .year {
   padding-top: 150px;
-}
-
-.section-orbis .section-title,
-.section-galitos .section-title {
-  /* height: 147px;
-  width: 309px; */
-}
-
-.section-orbis .section-branch,
-.section-galitos .section-branch {
-  /* height: 23px;
-  width: 166px; */
-}
-
-.section-orbis .section-number,
-.section-galitos .section-number {
-  /* height: 207px;
-  width: 149px; */
-  /* margin-right: 8vw;
-  margin-bottom: 100px;
-  margin-top: 519px;
-  margin-left: 81vw; */
 }
 
 /* ? light sections */
@@ -252,30 +226,15 @@ header {
   border: 1px solid var(--black-color);
 }
 
-/* light sections elements width and height + position*/
+/* light sections position*/
 
 .section-rollr .year,
 .section-tretto .year {
   padding-top: 250px;
 }
 
-.section-rollr .section-title,
-.section-tretto .section-title {
-}
-
-.section-rollr .section-branch,
-.section-tretto .section-branch {
-  /* height: ;
-  width: ; */
-}
-
-.section-rollr .section-number,
-.section-tretto .section-number {
-  /* height: ;
-  width: ; */
-}
-
 /* - individual project sections */
+
 .section-orbis {
   background: url(../assets/img/portfolio2.jpg) no-repeat center;
   background-attachment: fixed;
