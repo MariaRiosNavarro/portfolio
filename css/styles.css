@@ -124,6 +124,45 @@ header {
   min-height: 1056px;
 }
 
+/* what more section */
+
+.section-what-more {
+  height: 931px;
+  font-family: Work-Sans, Arial, Helvetica, sans-serif;
+  background-color: var(--black-color);
+}
+
+.what-more-title {
+  padding: 130px 267px 150px 267px;
+  color: var(--white-color);
+  text-align: center;
+  font-size: 180px;
+  letter-spacing: -18px;
+  font-weight: 400;
+}
+
+.what-more-text {
+  margin: 0 100px 70px 640px;
+  height: 200px;
+  width: 700px;
+  color: var(--darkgray-color);
+  font-size: 22px;
+  line-height: 39.6px;
+  letter-spacing: 0.22px;
+  font-weight: 400;
+}
+
+.what-more-email {
+  margin: 0 376px 100px 640px;
+  height: 70px;
+  width: 424px;
+  color: var(--white-color);
+  font-size: 60px;
+  letter-spacing: -3.6px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
 /* footer  styles */
 
 .section-sozial-media {
