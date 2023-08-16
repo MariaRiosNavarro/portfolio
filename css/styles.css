@@ -101,11 +101,8 @@ header {
 /*!project sections styles */
 
 /* - general of projects sections */
-/* 
-.project h2,
-.project h3,
-.project h4,
-.project h6 {
+
+/* .project h4 {
   display: inline-block;
 } */
 
@@ -114,6 +111,9 @@ header {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: -1px;
+  margin: 0;
+  padding: 0;
+  padding-left: 15vw;
 }
 
 .project h3 {
@@ -121,21 +121,24 @@ header {
   font-size: 112px;
   font-weight: 400;
   border: 2px solid red;
+  text-align: left;
+  padding-left: 15vw;
 }
 .project h6 {
   font-family: Work-Sans, Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: -1px;
-  border: 2px solid yellow;
+  padding-left: 15vw;
 }
 .project div h2 {
-  text-align: right;
   font-family: Fjalla-One, Arial, Helvetica, sans-serif;
   font-size: 165px;
   font-weight: 400;
   letter-spacing: -3.3px;
-  border: 2px solid blue;
+  background-color: red;
+  text-align: right;
+  padding-right: 8vw;
 }
 
 .project div button {
@@ -146,9 +149,15 @@ header {
   width: 96px;
   height: 52px;
   text-align: center;
+  margin-left: 15vw;
 }
 
-/* ? dark sections */
+.year {
+  height: 23px;
+  width: 65px;
+}
+
+/* ? dark sections  */
 
 .section-orbis,
 .section-galitos {
@@ -179,6 +188,35 @@ header {
 .section-orbis .section-button,
 .section-galitos .section-button {
   border: 1px solid var(--white-color);
+}
+
+/* dark sections elements width and height + position */
+
+.section-orbis .year,
+.section-galitos .year {
+  padding-top: 150px;
+}
+
+.section-orbis .section-title,
+.section-galitos .section-title {
+  /* height: 147px;
+  width: 309px; */
+}
+
+.section-orbis .section-branch,
+.section-galitos .section-branch {
+  /* height: 23px;
+  width: 166px; */
+}
+
+.section-orbis .section-number,
+.section-galitos .section-number {
+  /* height: 207px;
+  width: 149px; */
+  /* margin-right: 8vw;
+  margin-bottom: 100px;
+  margin-top: 519px;
+  margin-left: 81vw; */
 }
 
 /* ? light sections */
@@ -212,6 +250,29 @@ header {
 .section-rollr .section-button,
 .section-tretto .section-button {
   border: 1px solid var(--black-color);
+}
+
+/* light sections elements width and height + position*/
+
+.section-rollr .year,
+.section-tretto .year {
+  padding-top: 250px;
+}
+
+.section-rollr .section-title,
+.section-tretto .section-title {
+}
+
+.section-rollr .section-branch,
+.section-tretto .section-branch {
+  /* height: ;
+  width: ; */
+}
+
+.section-rollr .section-number,
+.section-tretto .section-number {
+  /* height: ;
+  width: ; */
 }
 
 /* - individual project sections */
