@@ -20,6 +20,20 @@ html {
   --darkgray-color: #666;
 }
 
+@font-face {
+  font-family: Work-Sans;
+  src: url(../assets/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Didact-Gothic;
+  src: url(../assets/fonts/Didact_Gothic/DidactGothic-Regular.ttf);
+}
+/*
+@font-face {
+  font-family: ;
+  src: url();
+} */
+
 /* Header styles */
 
 header {
@@ -28,16 +42,46 @@ header {
 }
 
 .header-section {
-  margin: auto;
+  margin: 20px auto;
   padding: auto;
   text-align: center;
   height: 1789px;
   width: 720px;
-  border: 1px solid red;
+
+  color: var(--black-color);
+}
+
+.header-section-text {
+  font-family: Work-Sans, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header-section-title {
+  margin: 60px auto;
+  width: 700px;
+  height: 260px;
+  font-family: Didact-Gothic, Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 130px;
+  letter-spacing: -2px;
 }
 
 .header-section-image {
-  margin-top: ;
+  width: 720px;
+}
+
+.header-section-description {
+  font-family: Work-Sans, Arial, Helvetica, sans-serif;
+  font-size: 160px;
+  font-weight: 400;
+  line-height: normal;
+  width: 484px;
+  height: 188px;
+  margin: 118px auto;
+  text-align: center;
 }
 
 /* project sections styles */
