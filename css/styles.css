@@ -13,6 +13,16 @@ html {
   width: 1440px;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black-color);
+  cursor: pointer;
+}
+
 :root {
   --lightgray-color: #9e9e9e;
   --white-color: #fff;
@@ -115,3 +125,28 @@ header {
 }
 
 /* footer  styles */
+
+.section-sozial-media {
+  height: auto;
+  text-align: center;
+  font-family: Didact-Gothic, Arial, Helvetica, sans-serif;
+  font-size: 160px;
+  font-weight: lighter;
+  line-height: normal;
+  margin: auto;
+}
+
+.section-sozial-media ul {
+  width: 702px;
+  height: 1160px;
+  margin: 230px auto 130px auto;
+  text-align: center;
+}
+
+.section-sozial-media ul li {
+  height: 210px;
+}
+
+.section-sozial-media ul li:nth-of-type(2) {
+  margin: 150px auto;
+}
