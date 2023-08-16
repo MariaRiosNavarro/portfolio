@@ -61,7 +61,6 @@ header {
   text-align: center;
   height: 1789px;
   width: 720px;
-
   color: var(--black-color);
 }
 
@@ -316,16 +315,16 @@ header {
 }
 
 .what-more-title {
-  padding: 130px 267px 150px 267px;
+  padding-top: 130px;
   color: var(--white-color);
   text-align: center;
-  font-size: 180px;
+  font-size: 150px;
   letter-spacing: -18px;
   font-weight: 400;
 }
 
 .what-more-text {
-  margin: 0 100px 70px 640px;
+  margin: 150px auto 70px 44vw;
   height: 200px;
   width: 700px;
   color: var(--darkgray-color);
@@ -336,7 +335,7 @@ header {
 }
 
 .what-more-email {
-  margin: 0 376px 100px 640px;
+  margin: 0 auto 100px 44vw;
   height: 70px;
   width: 424px;
   color: var(--white-color);
