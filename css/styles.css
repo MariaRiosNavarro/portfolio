@@ -18,3 +18,39 @@ html {
   --black-color: #000;
   --darkgray-color: #666;
 }
+
+/* project sections styles */
+
+.section-orbis {
+  background: url(../assets/img/portfolio2.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 826px;
+  width: 100%;
+}
+
+.section-rollr {
+  background: url(../assets/img/portfolio3.png) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 1056px;
+  width: 100%;
+}
+
+.section-galitos {
+  background: url(../assets/img/portfolio4.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 826px;
+  width: 100%;
+}
+
+.section-tretto {
+  background: url(../assets/img/portfolio5.png) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 1056px;
+  width: 100%;
+}
+
+/* footer  styles */
