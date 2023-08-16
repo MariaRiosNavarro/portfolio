@@ -10,6 +10,7 @@
 
 html {
   font-size: 62.5%;
+  width: 1440px;
 }
 
 :root {
@@ -19,6 +20,26 @@ html {
   --darkgray-color: #666;
 }
 
+/* Header styles */
+
+header {
+  height: 1928px;
+  margin-bottom: 33px;
+}
+
+.header-section {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  height: 1789px;
+  width: 720px;
+  border: 1px solid red;
+}
+
+.header-section-image {
+  margin-top: ;
+}
+
 /* project sections styles */
 
 .section-orbis {
@@ -26,7 +47,6 @@ html {
   background-attachment: fixed;
   background-size: cover;
   min-height: 826px;
-  width: 100%;
 }
 
 .section-rollr {
@@ -34,7 +54,6 @@ html {
   background-attachment: fixed;
   background-size: cover;
   min-height: 1056px;
-  width: 100%;
 }
 
 .section-galitos {
@@ -42,7 +61,6 @@ html {
   background-attachment: fixed;
   background-size: cover;
   min-height: 826px;
-  width: 100%;
 }
 
 .section-tretto {
@@ -50,7 +68,6 @@ html {
   background-attachment: fixed;
   background-size: cover;
   min-height: 1056px;
-  width: 100%;
 }
 
 /* footer  styles */
