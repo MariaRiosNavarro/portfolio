@@ -186,7 +186,7 @@ header {
   border: 1px solid var(--white-color);
 }
 
-/* dark sections elements position */
+/* - dark sections elements position */
 
 .section-orbis .year,
 .section-galitos .year {
@@ -245,7 +245,7 @@ header {
   border: 1px solid var(--black-color);
 }
 
-/* light sections position*/
+/* - light sections position*/
 
 .section-rollr .year,
 .section-tretto .year {
