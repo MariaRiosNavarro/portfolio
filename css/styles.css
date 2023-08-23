@@ -1,3 +1,17 @@
+@font-face {
+  font-family: Work-Sans;
+  src: url("../assets/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Didact-Gothic;
+  src: url("../assets/fonts/Didact_Gothic/DidactGothic-Regular.ttf");
+}
+
+@font-face {
+  font-family: Fjalla-One;
+  src: url("../assets/fonts/Fjalla_One/FjallaOne-Regular.ttf");
+}
+
 *,
 *::before,
 *::after {
@@ -33,20 +47,6 @@ a:hover {
   --white-color: #fff;
   --black-color: #000;
   --darkgray-color: #666;
-}
-
-@font-face {
-  font-family: Work-Sans;
-  src: url(../assets/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
-}
-@font-face {
-  font-family: Didact-Gothic;
-  src: url(../assets/fonts/Didact_Gothic/DidactGothic-Regular.ttf);
-}
-
-@font-face {
-  font-family: Fjalla-One;
-  src: url(../assets/fonts/Fjalla_One/FjallaOne-Regular.ttf);
 }
 
 /* !Header styles */
@@ -274,7 +274,7 @@ header {
 /* - individual project sections */
 
 .section-orbis {
-  background: url(../assets/img/portfolio2.jpg) no-repeat center;
+  background: url("../assets/img/portfolio2.jpg") no-repeat center;
   background-attachment: fixed;
   background-size: cover;
   min-height: 826px;
@@ -282,7 +282,7 @@ header {
 }
 
 .section-rollr {
-  background: url(../assets/img/portfolio3.png) no-repeat center;
+  background: url("../assets/img/portfolio3.png") no-repeat center;
   background-attachment: fixed;
   background-size: cover;
   min-height: 1056px;
@@ -291,7 +291,7 @@ header {
 }
 
 .section-galitos {
-  background: url(../assets/img/portfolio4.jpg) no-repeat center;
+  background: url("../assets/img/portfolio4.jpg") no-repeat center;
   background-attachment: fixed;
   background-size: cover;
   min-height: 826px;
@@ -299,7 +299,7 @@ header {
 }
 
 .section-tretto {
-  background: url(../assets/img/portfolio5.png) no-repeat center;
+  background: url("../assets/img/portfolio5.png") no-repeat center;
   background-attachment: fixed;
   background-size: cover;
   min-height: 1056px;
